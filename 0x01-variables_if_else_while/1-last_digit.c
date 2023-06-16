@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
+ * @void: Null value
  *
- * Description:last_digit
- *
- * Return: Alawys 0 (Success)
+ * Description: Check the last digit of the number
+ * Return: Zero value to succesful
  */
 
 int main(void)
