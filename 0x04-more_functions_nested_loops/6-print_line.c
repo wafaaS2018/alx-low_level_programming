@@ -1,25 +1,17 @@
 #include "main.h"
 /**
- * more_numbers - Prints numbers 0 - 14 10 times
+ * print_line - Prints line
+ * @n: lenght of line
  *
  * Return: void
  */
-void more_numbers(void)
+void print_line(int n)
 {
-	int i, j, k, l;
+	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < 15; j++)
-		{
-			k = j / 10;
-			l = j % 10;
-			if (k != 0)
-			{
-				_putchar(k + 48);
-			}
-			_putchar(l + 48);
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+	_putchar('\n');
 }
